@@ -16,4 +16,4 @@ tf-plan:
 	terraform plan -out=tf/out.tfplan tf 
 
 tf-apply:
-	terraform apply tf/out.tfplan 
+	terraform apply -state=tf/out.tfstate tf/out.tfplan 
