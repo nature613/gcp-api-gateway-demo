@@ -9,3 +9,7 @@ variable "gcp_region" {
 variable "users_app_image" {
     type = string
 }
+
+variable "locations_app_image" {
+    type = string
+}

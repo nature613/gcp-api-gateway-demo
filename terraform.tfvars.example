@@ -1,3 +1,4 @@
 gcp_project_id = "my-project-id"
 gcp_region = "us-central1"
-users_app_image = "quay.io/my-username/users-app:0.1.1"
+users_app_image = "gcr.io/my-project-id/users:0.1.1"
+locations_app_image = "gcr.io/my-project-id/locations:0.1.1"

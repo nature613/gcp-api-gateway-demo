@@ -1,0 +1,21 @@
+# openapi2-run.yaml
+swagger: '2.0'
+info:
+  title: gateway-demo
+  description: API Gateway demo with 2 cloud run backends
+  version: 1.0.0
+schemes:
+  - https
+produces:
+  - application/json
+paths:
+  /users:
+    get:
+      summary: Users svc
+      x-google-backend:
+        address: USERS_SVC_URL
+  /locations:
+    get:
+      summary: Locations svc
+      x-google-backend:
+        address: LOCATIONS_SVC_URL

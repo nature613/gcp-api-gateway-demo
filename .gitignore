@@ -85,3 +85,9 @@ sa.json
 # terraform
 .terraform/
 terraform.tfvars
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# gateway config
+api.yaml
