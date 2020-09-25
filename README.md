@@ -52,12 +52,12 @@ Enable APIS
 PROJECT_ID=$PROJECT_ID make gcp-enable-apis
 ```
 
-## Build containers
-Build users service container
+## Build/Push containers
+Build/Push users service container
 ```
 PROJECT_ID=$PROJECT_ID make gcr-push-users
 ```
-Build locations service container
+Build/Push locations service container
 ```
 PROJECT_ID=$PROJECT_ID make gcr-push-locations
 ```
