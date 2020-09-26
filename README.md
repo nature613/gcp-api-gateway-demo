@@ -1,7 +1,7 @@
 
 # GCP API Gateway Demo
 
-This repository is a companion repo for the article: [GCP API Gateway Demo with Terraform, Go and Cloud Run](https://medium.com/@didil)
+This repository is a companion repo for the article: [GCP API Gateway Demo with Terraform, Go and Cloud Run](https://medium.com/@didil/gcp-api-gateway-demo-with-terraform-go-cloud-run-f76148328e06)
 
 !!! THIS IS A PROOF OF CONCEPT. NOT INTENDED FOR PRODUCTION USE !!!
 
